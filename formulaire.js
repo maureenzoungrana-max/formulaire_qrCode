@@ -35,6 +35,6 @@ app.post('/generate', async (req, res) => {
     }
 });
 
-app.listen(3001, () => {
-    console.log("serveur démarrer sur le port 3001");
+app.listen(port, () => {
+    console.log(`serveur démarrer sur le port ${port}`);
 });
